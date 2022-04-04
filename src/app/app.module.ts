@@ -9,6 +9,7 @@ import { UpdateRestoComponent } from './update-resto/update-resto.component';
 import { ListRestoComponent } from './list-resto/list-resto.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { RegisterComponent } from './register/register.component';
     LoginComponent,
     RegisterComponent,
   ],
-  imports: [BrowserModule, RouterModule],
+  imports: [BrowserModule, RouterModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
