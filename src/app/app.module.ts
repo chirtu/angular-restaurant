@@ -10,9 +10,11 @@ import { ListRestoComponent } from './list-resto/list-resto.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
+    //components are declared not imported to.
     AppComponent,
     AddRestoComponent,
     UpdateRestoComponent,
@@ -20,7 +22,7 @@ import { AppRoutingModule } from './app-routing.module';
     LoginComponent,
     RegisterComponent,
   ],
-  imports: [BrowserModule, RouterModule, AppRoutingModule],
+  imports: [BrowserModule, RouterModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -7,6 +7,7 @@ import { LoginComponent } from '../app/login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { UpdateRestoComponent } from './update-resto/update-resto.component';
 
+// add to the route path
 const routes: Routes = [
   {
     component: AddRestoComponent,
@@ -32,15 +33,8 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [],
-  imports: [
-    RouterModule.forRoot(routes),
-    CommonModule,
-    AddRestoComponent,
-    ListRestoComponent,
-    UpdateRestoComponent,
-    RegisterComponent,
-    LoginComponent,
-  ],
+  //for importing routes
+  imports: [RouterModule.forRoot(routes), CommonModule],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}

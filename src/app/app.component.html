@@ -1,5 +1,33 @@
-<h1>Resto App</h1>
-<ul>
-  <li><a routerLink="add"> Add Restaurants</a></li>
+<ul class="nav nav-pills nav-justified bg-light navbar-light pt-5">
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="pill" routerLink="add">
+      Add Restaurants</a
+    >
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="pill" routerLink="list">
+      List Restaurants</a
+    >
+  </li>
+  <li class="nav-item"></li>
+  <li>
+    <a class="nav-link" data-bs-toggle="pill" routerLink="login">
+      Login Restaurants</a
+    >
+  </li>
+  <li class="nav-item"></li>
+  <li>
+    <a class="nav-link" data-bs-toggle="pill" routerLink="update">
+      Update Restaurants</a
+    >
+  </li>
+  <li class="nav-item"></li>
+  <li>
+    <a class="nav-link" data-bs-toggle="pill" routerLink="register">
+      Register Restaurants</a
+    >
+  </li>
 </ul>
-<router-outlet></router-outlet>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "restaurants": [
+        {
+          "id": 1,
+          "name": "KFC restaurants",
+          "address": " noida street",
+          " email": "kfc@test.com"
+        },
+        {
+          "id": 2,
+          "name": "OM restaurants",
+          "address": " delhi street",
+          " email": "delhi@test.com"
+        },
+        {
+          "name": "nodes restaurants",
+          "address": " uhuru street",
+          " email": "uhuru@test.com",
+          "id": 3
+        },
+        {
+          "id": 4,
+          "name": "Bahati restaurants",
+          "address": " Bunumbura street",
+          " email": "bunumbura@test.com"
+        },
+        {
+          "id": 5,
+          "name": " uswazi restaurants",
+          "address": " Moro street",
+          " email": "uswaz@test.com"
+        },
+        {
+          "id": 6,
+          "name": "Pecam restaurants",
+          "address": " Sua street",
+          " email": "Pecam@test.com"
+        },
+        {
+          "id": 7,
+          "name": "SamakiSamaki restaurants",
+          "address": " Uzungunistreet",
+          " email": "Samakisamaki@test.com"
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
